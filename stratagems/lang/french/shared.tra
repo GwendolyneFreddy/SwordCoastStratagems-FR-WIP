@@ -1,0 +1,39 @@
+
+@101002 = ~Bois une potion de résistance au feu~
+@101003 = ~Bois une potion de force de géant des collines~
+@101004 = ~Bois une potion de force de géant du froid~
+@101005 = ~Bois une potion de force de géant du feu~
+@101006 = ~Bois une potion de force de géant des nuages~
+@101007 = ~Bois une potion de force de géant des tempêtes~
+@101008 = ~Bois une potion de soins~
+@101009 = ~Bois une potion d'héroïsme~
+@101010 = ~Bois une potion d'invisibilité~
+@101011 = ~Bois une potion d'invulnérabilité~
+@101012 = ~Bois une potion de force de géant des pierres~
+@101014 = ~Applique une huile de rapidité~
+@101017 = ~Bois un élixir de santé~
+@101018 = ~Bois une potion d'absorption~
+@101020 = ~Bois un antidote~
+@101021 = ~Bois une potion de clarté~
+@101024 = ~Bois une potion de défense~
+@101028 = ~Bois une potion de force morale~
+@101034 = ~Bois une potion de résistance à la magie~
+@101035 = ~Bois une potion de protection contre la magie~
+@101041 = ~Bois une potion de pouvoir~
+@101042 = ~Bois une potion de régénération~
+@101045 = ~Bois une potion de liberté~
+@101052 = ~Bois une potion de grands soins~
+@101055 = ~Bois une potion de soin majeur~
+@100200 = ~Utilise une baguette~
+@100201 = ~Lit un parchemin~
+@100300 = ~ (lancé précédemment)~
+@100400 = ~Non utilisable par :~
+@100401 = ~Utilisable par :~
+@100402 = ~IA activée~
+@100403 = ~IA désactivée~
+@100404 = ~  
+
+Cette créature peut utiliser ce pouvoir une fois toutes les 99999 secondes.~
+@100405 = ~
+
+Cette créature peut utiliser ce pouvoir à sa guise.~
