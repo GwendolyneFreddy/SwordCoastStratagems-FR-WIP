@@ -30,10 +30,10 @@ POINTS NOTABLES :
 
 CORRECTED TYPOS ENGLISH TRA FILES : 
 
-durlag.tra @22410 space at the beginning
-sendai.tra @701 deleted "Katana (\n)"
-difficulty.tra @191 space between other  undead
-difficulty.tra @263 space between and  use
-difficulty.tra @403 "of its spells increase.." -> "of its spells increase."
-difficulty.tra @1073 "d'Arnise" -> "de'Arnise"
-difficulty.tra @1110 space between \n  INSANE / lack of space between .\n
+- durlag.tra @22410 space at the beginning
+- sendai.tra @701 deleted "Katana (\n)"
+- difficulty.tra @191 space between other  undead
+- difficulty.tra @263 space between and  use
+- difficulty.tra @403 "of its spells increase.." -> "of its spells increase."
+- difficulty.tra @1073 "d'Arnise" -> "de'Arnise"
+- difficulty.tra @1110 space between \n  INSANE / lack of space between .\n
