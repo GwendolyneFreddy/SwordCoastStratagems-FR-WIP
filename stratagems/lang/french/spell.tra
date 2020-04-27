@@ -3,7 +3,7 @@
 @203 = ~Peaux de fer, ~
 @204 = ~, et Peaux de fer.~
 @205 = ~réduit la cible touchée à 1 point de vie~
-@206 = ~inflige 150 points de dégâts à la cible~
+@206 = ~inflige 150 points de dégâts à la cible, mais ne peut réduire ses points de vie en dessous de 1~
 @207 = ~
 C'est la ~
 @208 = ~ version du sortilège.~
@@ -50,7 +50,7 @@ Une fois qu'<PRO_HESHE> apprend à lancer des sorts de 4ème niveau, un mage peut 
 En apprenant à lancer des sorts de 7ème niveau, un mage peut également créer un Séquenceur de sorts, qui contient trois sorts de niveaux 1 à 4. Une fois qu'<PRO_HESHE> apprend à lancer des sorts de 8ème niveau, <PRO_HESHE> peut créer un Déclencheur de sort, contenant trois sorts de niveaux 1 à 6.
 ~
 
-@1001= ~
+@1001 = ~
 
 CONTINGENCE
 Une fois qu'il a acquis la capacité de lancer des sorts de 6ème niveau, un barde peut lancer Contingence une fois par jour, désignant un sort d'un maximum de 1/3 du niveau du barde qui sera automatiquement lancé sur le barde si certaines conditions s'appliquent. Une seule Contingence peut être active à la fois.
@@ -59,21 +59,21 @@ SÉQUENCEUR DE SORTS
 Une fois qu'<PRO_HESHE> apprend à lancer des sorts de 4ème niveau, un barde peut créer un Séquenceur mineur, qui contient deux sorts de premier ou de deuxième niveau pouvant être lancés plus tard, en une capacité spéciale qui ne prend qu'un instant à indiquer. Le barde peut créer un nouveau Séquenceur mineur une fois par jour, mais un seul peut être actif à la fois.
 ~
 
-@1002= ~
+@1002 = ~
 En apprenant à lancer des sorts de 7ème niveau, un barde peut également créer un Séquenceur de sorts, qui contient trois sorts de niveaux 1 à 4.~
-@1003= ~ Une fois qu'<PRO_HESHE> apprend à lancer des sorts de 8ème niveau, un barde peut créer un Déclencheur de sort, contenant trois sorts de niveaux 1 à 6.~
-@1004= ~Préparation~
-@1005= ~Obtention de capacités spéciales~
+@1003 = ~ Une fois qu'<PRO_HESHE> apprend à lancer des sorts de 8ème niveau, un barde peut créer un Déclencheur de sort, contenant trois sorts de niveaux 1 à 6.~
+@1004 = ~Préparation~
+@1005 = ~Obtention de capacités spéciales~
 
-@1010="
+@1010 = "
 
 Les sorts de protection de combat dissipés par Brèche sont"
 
-@1020=" +1 par niveau (maximum "
+@1020 = " +1 par niveau (maximum "
 
-@1100="Il annule toute absorption de vie ou de niveau subie à la suite d'une attaque par un monstre, par exemple." // NOTE TO TRANSLATORS: must be exact string from description of 'Lesser Restoration' spell
-@1101=", annulant ainsi les effets de toute absorption d'énergie précédemment effectuée par une force quelconque ou un monstre." // NOTE TO TRANSLATORS: must be exact string from description of 'Greater Restoration' spell
-@1102=", annulant ainsi les effets de toute absorption d'énergie précédemment effectuée par une force quelconque ou un monstre, et restaure toute perte de points de statistiques, comme par exemple l'absorption de force par une attaque d'ombre ou d'intelligence par un flagelleur mental."
+@1100 = "Il annule toute absorption de vie ou de niveau subie à la suite d'une attaque par un monstre, par exemple." // NOTE TO TRANSLATORS: must be exact string from description of 'Lesser Restoration' spell
+@1101 = ", annulant ainsi les effets de toute absorption d'énergie précédemment effectuée par une force quelconque ou un monstre." // NOTE TO TRANSLATORS: must be exact string from description of 'Greater Restoration' spell
+@1102 = ", annulant ainsi les effets de toute absorption d'énergie précédemment effectuée par une force quelconque ou un monstre, et restaure toute perte de points de statistiques, comme par exemple l'absorption de force par une attaque d'ombre ou d'intelligence par un flagelleur mental."
 
 
 @3700 = ~
@@ -88,7 +88,7 @@ Sphère : animale
 Portée : longue
 Durée : 6 rounds
 Temps d'incantation : 5
-Zone d'effet : cible, et quiconque se trouvant à moins de 9 mètres
+Zone d'effet : spécial
 Jet de sauvegarde : spécial
 
 Lorsque le sortilège est lancé, une horde d'insectes rampants, sautants et volants se rassemble en un essaim, qui attaque en premier lieu la cible, et se déplace ensuite vers tous les ennemis du lanceur dans le rayon d'action du sortilège. L'invisibilité ne protège pas de ce sort.
@@ -103,7 +103,7 @@ Sphère : animale, convocation
 Portée : longue
 Durée : 3 rounds
 Temps d'incantation : 5
-Zone d'effet : cible, et quiconque se trouvant à moins de 9 mètres
+Zone d'effet : spécial
 Jet de sauvegarde : spécial
 
 Ce sort invoque une masse d'araignées venimeuses, d'insectes mordeurs et piqueurs. Ce tapis vivant couvre une large surface et attaque tout ennemi désigné par le lanceur, dans un rayon de 9 mètres. L'invisibilité ne protège pas de ce sort.
@@ -197,7 +197,7 @@ Spécial : 1D2 points de dégâts de froid (pas de jet de sauvegarde)
 Poids : 0
 Arme de jet : arc~
 
-@32000="Conjuration d'un élémentaire de terre
+@32000 = "Conjuration d'un élémentaire de terre
 (Conjuration/Convocation)
 
 Niveau : 6
@@ -209,7 +209,7 @@ Jet de sauvegarde : aucun
 
 En lançant le sort Conjuration d'un élémentaire de terre, le lanceur ouvre un portail spécial vers le plan élémentaire de la terre, et un élémentaire de terre est invoqué à proximité du lanceur. Il y a 60% de chances qu'un élémentaire de 12 DV apparaisse, 35% de chances qu'un élémentaire de 16 DV apparaisse, et 5% de chances qu'un élémentaire de 24 DV apparaisse. L'élémentaire suivra les ordres du lanceur jusqu'à ce qu'il soit tué ou jusqu'à la fin de la durée du sort. Tous les ordres donnés à l'élémentaire se font par télépathie, il n'y a donc pas de perte de temps due à une mauvaise communication et il n'est pas nécessaire de connaître la langue de la créature invoquée."
 
-@32001="Conjuration d'un élémentaire d'air
+@32001 = "Conjuration d'un élémentaire d'air
 (Conjuration/Convocation)
 
 Niveau : 6
@@ -221,7 +221,7 @@ Jet de sauvegarde : aucun
 
 En lançant le sort Conjuration d'un élémentaire d'air, le lanceur ouvre un portail spécial vers le plan élémentaire de l'air, et un élémentaire d'air est invoqué à proximité du lanceur. Il y a 60% de chances qu'un élémentaire de 12 DV apparaisse, 35% de chances qu'un élémentaire de 16 DV apparaisse, et 5% de chances qu'un élémentaire de 24 DV apparaisse. L'élémentaire suivra les ordres du lanceur jusqu'à ce qu'il soit tué ou jusqu'à la fin de la durée du sort. Tous les ordres donnés à l'élémentaire se font par télépathie, il n'y a donc pas de perte de temps due à une mauvaise communication et il n'est pas nécessaire de connaître la langue de la créature invoquée."
 
-@32002="Conjuration d'un élémentaire de feu
+@32002 = "Conjuration d'un élémentaire de feu
 (Conjuration/Convocation)
 
 Niveau : 6
@@ -233,7 +233,7 @@ Jet de sauvegarde : aucun
 
 En lançant le sort Conjuration d'un élémentaire de feu, le lanceur ouvre un portail spécial vers le plan élémentaire du feu, et un élémentaire de feu est invoqué à proximité du lanceur. Il y a 60% de chances qu'un élémentaire de 12 DV apparaisse, 35% de chances qu'un élémentaire de 16 DV apparaisse, et 5% de chances qu'un élémentaire de 24 DV apparaisse. L'élémentaire suivra les ordres du lanceur jusqu'à ce qu'il soit tué ou jusqu'à la fin de la durée du sort. Tous les ordres donnés à l'élémentaire se font par télépathie, il n'y a donc pas de perte de temps due à une mauvaise communication et il n'est pas nécessaire de connaître la langue de la créature invoquée."
 
-@32003="Conjuration d'un élémentaire de terre mineur
+@32003 = "Conjuration d'un élémentaire de terre mineur
 (Conjuration/Convocation)
 
 Niveau : 5
@@ -245,7 +245,7 @@ Jet de sauvegarde : aucun
 
 Ce sort invoque un Élémentaire de Terre de 8 DV au service du personnage en ouvrant un portail magique vers le Plan Élémentaire de la Terre. L'élémentaire se battra pour le personnage jusqu'à sa destruction ou la fin du sort."
 
-@32004="Conjuration d'un élémentaire d'air mineur
+@32004 = "Conjuration d'un élémentaire d'air mineur
 (Conjuration/Convocation)
 
 Niveau : 5
@@ -257,7 +257,7 @@ Jet de sauvegarde : aucun
 
 Ce sort invoque un Élémentaire d'Air de 8 DV au service du personnage en ouvrant un portail magique vers le Plan Élémentaire de l'Air. L'élémentaire se battra pour le personnage jusqu'à sa destruction ou la fin du sort."
 
-@32005="Conjuration d'un élémentaire de feu mineur
+@32005 = "Conjuration d'un élémentaire de feu mineur
 (Conjuration/Convocation)
 
 Niveau : 5
@@ -269,7 +269,7 @@ Jet de sauvegarde : aucun
 
 Ce sort invoque un Élémentaire de Feu de 8 DV au service du personnage en ouvrant un portail magique vers le Plan Élémentaire du Feu. L'élémentaire se battra pour le personnage jusqu'à sa destruction ou la fin du sort."
 
-@32006="Conjuration d'un élémentaire d'eau mineur
+@32006 = "Conjuration d'un élémentaire d'eau mineur
 (Conjuration/Convocation)
 
 Niveau : 5
@@ -281,7 +281,7 @@ Jet de sauvegarde : aucun
 
 Ce sort invoque un Élémentaire d'Eau de 8 DV au service du personnage en ouvrant un portail magique vers le Plan Élémentaire de l'Eau. L'élémentaire se battra pour le personnage jusqu'à sa destruction ou la fin du sort."
 
-@32007="Conjuration d'un élémentaire d'eau
+@32007 = "Conjuration d'un élémentaire d'eau
 (Conjuration/Convocation)
 
 Niveau : 6
@@ -293,16 +293,16 @@ Jet de sauvegarde : aucun
 
 En lançant le sort Conjuration d'un élémentaire d'eau, le lanceur ouvre un portail spécial vers le plan élémentaire de l'eau, et un élémentaire d'eau est invoqué à proximité du lanceur. Il y a 60% de chances qu'un élémentaire de 12 DV apparaisse, 35% de chances qu'un élémentaire de 16 DV apparaisse, et 5% de chances qu'un élémentaire de 24 DV apparaisse. L'élémentaire suivra les ordres du lanceur jusqu'à ce qu'il soit tué ou jusqu'à la fin de la durée du sort. Tous les ordres donnés à l'élémentaire se font par télépathie, il n'y a donc pas de perte de temps due à une mauvaise communication et il n'est pas nécessaire de connaître la langue de la créature invoquée."
 
-@32008="Élémentaire d'eau mineur"
-@32009="Élémentaire d'eau"
-@32010="Élémentaire d'eau majeur"
-@32011="Élémentaire d'eau ancien"
-@32012="Conjuration d'un élémentaire d'air mineur"
-@32013="Conjuration d'un élémentaire de terre mineur"
-@32014="Conjuration d'un élémentaire de feu mineur"
-@32015="Conjuration d'un élémentaire d'eau"
+@32008 = "Élémentaire d'eau mineur"
+@32009 = "Élémentaire d'eau"
+@32010 = "Élémentaire d'eau majeur"
+@32011 = "Élémentaire d'eau ancien"
+@32012 = "Conjuration d'un élémentaire d'air mineur"
+@32013 = "Conjuration d'un élémentaire de terre mineur"
+@32014 = "Conjuration d'un élémentaire de feu mineur"
+@32015 = "Conjuration d'un élémentaire d'eau"
 
-@32016="Conjuration d'un élémentaire d'air mineur
+@32016 = "Conjuration d'un élémentaire d'air mineur
 (Conjuration/Convocation)
 
 Niveau : 5
@@ -314,7 +314,7 @@ Jet de sauvegarde : aucun
 
 Ce sort invoque un Élémentaire d'Air de 8 DV au service du personnage en ouvrant un portail magique vers le Plan Élémentaire de l'Air. L'élémentaire se battra pour le personnage jusqu'à sa destruction ou la fin du sort."
 
-@32017="Conjuration d'un élémentaire de terre mineur
+@32017 = "Conjuration d'un élémentaire de terre mineur
 (Conjuration/Convocation)
 
 Niveau : 5
@@ -326,7 +326,7 @@ Jet de sauvegarde : aucun
 
 Ce sort invoque un Élémentaire de Terre de 8 DV au service du personnage en ouvrant un portail magique vers le Plan Élémentaire de la Terre. L'élémentaire se battra pour le personnage jusqu'à sa destruction ou la fin du sort."
 
-@32018="Conjuration d'un élémentaire de feu mineur
+@32018 = "Conjuration d'un élémentaire de feu mineur
 (Conjuration/Convocation)
 
 Niveau : 5
@@ -338,7 +338,7 @@ Jet de sauvegarde : aucun
 
 Ce sort invoque un Élémentaire de Feu de 8 DV au service du personnage en ouvrant un portail magique vers le Plan Élémentaire du Feu. L'élémentaire se battra pour le personnage jusqu'à sa destruction ou la fin du sort."
 
-@32019="Conjuration d'un élémentaire d'eau mineur
+@32019 = "Conjuration d'un élémentaire d'eau mineur
 (Conjuration/Convocation)
 
 Niveau : 5
@@ -350,7 +350,7 @@ Jet de sauvegarde : aucun
 
 Ce sort invoque un Élémentaire d'Eau de 8 DV au service du personnage en ouvrant un portail magique vers le Plan Élémentaire de l'Eau. L'élémentaire se battra pour le personnage jusqu'à sa destruction ou la fin du sort."
 
-@32020="Conjuration d'un élémentaire d'eau mineur"
+@32020 = "Conjuration d'un élémentaire d'eau mineur"
 
 
 @32100 = ~Portail
@@ -442,10 +442,10 @@ Jet de sauvegarde : spécial
 Ce sort fait apparaître un petit globe d'énergie magique filant de la main tendue du mage pour aller frapper à coup sûr la cible désignée. Le personnage crée un projectile au niveau 7, plus un autre tous les trois niveaux supplémentaires (deux au niveau 10, trois au niveau 13, jusqu'à un maximum de quatre au niveau 16). Chaque projectile cause 2d4 points de dégâts, puis explose, la détonation infligeant 1 point de dégâts par niveau du magicien (jusqu'à un maximum de 15) dans un rayon de 1,50 mètre. Par exemple, un mage de niveau 12 fait apparaître deux projectiles de force, infligeant chacun 2d4+12 points de dégâts. Les créatures touchées ont droit à un jet de sauvegarde contre les sorts pour éviter les dégâts de l'explosion (elles subissent automatiquement les 2d4 points dus au projectile lui-même). Le sort Bouclier protège totalement contre les projectiles."
 
 // Égide divine = Bouclier de Lathandre (IWD) Jazira
-@40300="Égide divine"
-@40301="Égide divine supérieure"
+@40300 = "Égide divine"
+@40301 = "Égide divine supérieure"
 
-@40302="Égide divine
+@40302 = "Égide divine
 (Conjuration)
 
 Niveau : 5
@@ -458,7 +458,7 @@ Jet de sauvegarde : aucun
 
 Le sujet est immunisé contre les dégâts jusqu'au terme de la durée indiquée."
 
-@40303="Égide divine supérieur
+@40303 = "Égide divine supérieur
 (Conjuration)
 
 Niveau : 7
@@ -472,9 +472,9 @@ Jet de sauvegarde : aucun
 Le sujet bénéficie d'une résistance à la magie de 100 % et d'une immunité totale contre les dégâts jusqu'au terme de la durée indiquée."
 
 // Création de squelette de garde = Convocation de monstres VII (IWD) Jazira
-@40400="Création de squelette de garde"
+@40400 = "Création de squelette de garde"
 
-@40401="Création de squelette de garde
+@40401 = "Création de squelette de garde
 (Nécromancie)
 
 Niveau : 9
@@ -486,9 +486,9 @@ Jet de sauvegarde : aucun
 
 En lançant ce sort, le sorcier invoque 1d2 squelettes de garde. Ces monstres morts-vivants apparaissent à portée du sort et peuvent être commandés pour attaquer les adversaires du lanceur jusqu'à la fin de la durée du sort ou que les monstres soient détruits."
 
-@40402="Squelette de garde"
+@40402 = "Squelette de garde"
 
-@40500="Projection d'épines
+@40500 = "Projection d'épines
 (Transmutation)
 
 Niveau : 4
@@ -501,7 +501,7 @@ Jet de sauvegarde : aucun
 
 Ce sort fait jaillir un grand nombre d'épines, pics, barbillons et pointes de la main tendue du personnage. Les projectiles couvrent une zone conique de 5 mètres de long et de 90 degrés d'angle. Ils infligent 4d10 points de dégâts perforants à toutes les créatures touchées."
 
-@40600="Cercle d'ossements
+@40600 = "Cercle d'ossements
 (Nécromancie)
 
 Niveau : 3
@@ -514,15 +514,15 @@ Jet de sauvegarde : aucun
 
 Ce sort fait apparaître une barrière d'ossements flottants qui tourbillonnent rapidement autour du personnage, qui ne peut pas se déplacer tant que le sort fait effet. Quiconque tente de la franchir subit 1d6 points de dégâts contondants et 1d6 points de dégâts tranchants par tour. Cercle d'ossements ne peut être lancé par les personnages d'alignement bon."
 
-@40700=" Enfin, le prêtre est protégé contre plusieurs abjurations puissantes, à savoir Brèche, Délivrance de la magie et Emprisonnement."
+@40700 = " Enfin, le prêtre est protégé contre plusieurs abjurations puissantes, à savoir Brèche, Délivrance de la magie et Emprisonnement."
 
-@41000="Il ne peut pas être lancé par un personnage d'alignement mauvais." // NOTE TO TRANSLATORS: Must match the exact string in the description of IWDEE Cure Critical Wounds
-@41001="Il ne peut pas être lancé par un personnage d'alignement mauvais." // NOTE TO TRANSLATORS: Must match the exact string in the description of IWDEE Mass Cure Light Wounds
-@41002="Il ne peut être lancé par un personnage maléfique." // NOTE TO TRANSLATORS: Must match the exact string in the description of IWDEE Heal
-@41003="Il ne peut être lancé que par des personnages d'alignement mauvais." // NOTE TO TRANSLATORS: Must match the exact string in the description of IWDEE Harm
+@41000 = "Il ne peut pas être lancé par un personnage d'alignement mauvais." // NOTE TO TRANSLATORS: Must match the exact string in the description of IWDEE Cure Critical Wounds
+@41001 = "Il ne peut pas être lancé par un personnage d'alignement mauvais." // NOTE TO TRANSLATORS: Must match the exact string in the description of IWDEE Mass Cure Light Wounds
+@41002 = "Il ne peut être lancé par un personnage maléfique." // NOTE TO TRANSLATORS: Must match the exact string in the description of IWDEE Heal
+@41003 = "Il ne peut être lancé que par des personnages d'alignement mauvais." // NOTE TO TRANSLATORS: Must match the exact string in the description of IWDEE Harm
 
-@50000="Grimoire de la grandiose grandeur" // NOTE TO TRANSLATORS: don't bother translating this and the next string, it's just a testing item
-@50001="Un simple coup d'œil à ce tome suffit pour donner à son lecteur la connaissance de tous les sortilèges connus, ainsi qu'une intelligence supérieure pour tous les comprendre. Il disparaît après une seule utilisation.
+@50000 = "Grimoire de la grandiose grandeur" // NOTE TO TRANSLATORS: don't bother translating this and the next string, it's just a testing item
+@50001 = "Un simple coup d'œil à ce tome suffit pour donner à son lecteur la connaissance de tous les sortilèges connus, ainsi qu'une intelligence supérieure pour tous les comprendre. Il disparaît après une seule utilisation.
 
 PARAMÈTRES :
 
@@ -530,4 +530,3 @@ Spécial : une fois utilisé, le livre disparaît
 Utilisation : placez le dans un emplacement d'objet rapide
 
 Poids : 25"
-

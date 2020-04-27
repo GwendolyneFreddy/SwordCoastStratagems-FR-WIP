@@ -1,6 +1,6 @@
 // Création de squelette de garde = Convocation de monstres VII (IWD) Jazira
-@1="Création de squelette de garde"
-@2="Création de squelette de garde
+@1 = "Création de squelette de garde"
+@2 = "Création de squelette de garde
 (Nécromancie)
 
 Niveau : 9
@@ -60,14 +60,14 @@ Jet de sauvegarde : aucun
 
 En lançant le sort Conjuration d'un élémentaire d'eau, le lanceur ouvre un portail spécial vers le plan élémentaire de l'eau, et un élémentaire d'eau est invoqué à proximité du lanceur. Il y a 60% de chances qu'un élémentaire de 12 DV apparaisse, 35% de chances qu'un élémentaire de 16 DV apparaisse, et 5% de chances qu'un élémentaire de 24 DV apparaisse. L'élémentaire suivra les ordres du lanceur jusqu'à ce qu'il soit tué ou jusqu'à la fin de la durée du sort. Tous les ordres donnés à l'élémentaire se font par télépathie, il n'y a donc pas de perte de temps due à une mauvaise communication et il n'est pas nécessaire de connaître la langue de la créature invoquée."
 
-@7="Conjuration d'un élémentaire d'eau mineur"
-@8="Élémentaire d'eau ancien"
-@9="Élémentaire d'eau mineur"
-@10="Lame de force de Mordenkainen"
-@11="Guerrier Orque"
-@12="Archer Orque"
-@13="Guerrier Hobgobelin"
-@14="Archer Hobgobelin"
-@15="Ettin"
-@16="Yuan-Ti"
-@17="Troll géant"
+@7 = "Conjuration d'un élémentaire d'eau mineur"
+@8 = "Élémentaire d'eau ancien"
+@9 = "Élémentaire d'eau mineur"
+@10 = "Lame de force de Mordenkainen"
+@11 = "Guerrier Orque"
+@12 = "Archer Orque"
+@13 = "Guerrier Hobgobelin"
+@14 = "Archer Hobgobelin"
+@15 = "Ettin"
+@16 = "Yuan-Ti"
+@17 = "Troll géant"
