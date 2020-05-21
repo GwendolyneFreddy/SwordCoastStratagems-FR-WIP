@@ -100,7 +100,7 @@
 
 // Beholders
 
-@231 = "Les spectateurs utilisent surtout leurs pédoncules les moins mortels (charme, peur, domination, paralysation, blessures, lenteur) et n'utilisent pas leur œil central qui supprime la magie. Les Reines-mères n'utilisent que leur magie la plus faible."
+@231 = "Les spectateurs utilisent surtout leurs pédoncules les moins mortels (charme, peur, domination, paralysie, blessures, lenteur) et n'utilisent pas leur œil central qui supprime la magie. Les Reines-mères n'utilisent que leur magie la plus faible."
 @232 = "Les spectateurs utilisent également leur œil central contre les mages et les défenses du groupe. Les Reines-mères utilisent toute leur gamme de sorts."
 @233 = "Les spectateurs utilisent leurs pédoncules de mort, de pétrification et de télékinésie."
 @234 = "Les spectateurs utilisent leurs pédoncules de télékinésie pour voler certains objets du groupe (notamment le Bouclier de Baldurien, si vous l'avez)."
@@ -111,7 +111,7 @@
 @241 = "Les flagelleurs mentaux utilisent peu de pouvoirs, et les utilisent de manière peu intelligente."
 @242 = "Les flagelleurs mentaux utilisent Labyrinthe et des Coup spirituel. Leur intelligence générale pour choisir leurs cibles s'améliore."
 @243 = "L'intelligence surhumaine des flagelleurs mentaux leur permet d'ignorer les sorts d'Invisibilité. Ils utilisent le Trajet planaire pour se déplacer rapidement sur le champ de bataille, se cacher avec Détournement psionique, et sont trop alertes pour que le groupe puisse se reposer dans leur cité."
-@244 = "L'étrange physiologie des flagelleurs mentaux et leurs protections psioniques leur confèrent une résistance de 50% aux dégâts physiques. Les flagelleurs mentaux utilisent leurs pouvoirs psioniques pour détruire rapidement des adversaires non-vivants tels que les squelettes."
+@244 = "L'étrange physiologie des flagelleurs mentaux et leurs protections psioniques leur confèrent une résistance de 50 % aux dégâts physiques. Les flagelleurs mentaux utilisent leurs pouvoirs psioniques pour détruire rapidement des adversaires non-vivants tels que les squelettes."
 
 // Spawns
 
@@ -127,7 +127,7 @@
 @261 = "Les démons se battent de manière peu intelligente. Ils utiliseront certains de leurs pouvoirs magiques offensifs, mais pas les plus meurtriers, ne se téléporteront pas, n'attaqueront pas vos défenses magiques et ne renouvelleront pas les leurs."
 @262 = "Les démons choisiront leurs cibles intelligemment, attaqueront vos défenses magiques et utiliseront la plupart de leurs pouvoirs magiques offensifs."
 @263 = "Les démons peuvent utiliser leurs pouvoirs magiques instantanément et sans risque d'interruption. Ils se téléporteront sur le champ de bataille pour obtenir un avantage tactique, tenteront de renouveler leurs propres défenses et utiliseront tous leurs pouvoirs magiques. Les princes démons invoqueront des démons une fois tous les trois tours."
-@264 = "Les démons reçoivent une augmentation (+50%) de leurs points de vie. Les balors utiliseront leur pouvoir d'Implosion, mais uniquement dans Throne of Bhaal. Les princes démons invoqueront des démons une fois tous les deux tours."
+@264 = "Les démons reçoivent une augmentation (+50 %) de leurs points de vie. Les balors utiliseront leur pouvoir d'Implosion, mais uniquement dans Throne of Bhaal. Les princes démons invoqueront des démons une fois tous les deux tours."
 @265 = "Les balors utiliseront leur pouvoir d'Implosion tout au long du jeu. Les princes démons invoqueront des démons une fois par tour."
 
 // Genies
@@ -135,14 +135,14 @@
 @271 = "Les génies attaquent de manière peu intelligente, et n'utilisent pas leurs Invisibilité ou leurs pouvoirs de protection."
 @272 = "Les génies attaquent intelligemment et utilisent tous leurs pouvoirs magiques."
 @273 = "Les génies peuvent utiliser leurs pouvoirs magiques instantanément et sans risque d'interruption."
-@274 = "Les génies reçoivent une augmentation (+50%) de leurs points de vie."
+@274 = "Les génies reçoivent une augmentation (+50 %) de leurs points de vie."
 
 // Beholder hive
 
 @281 = "L'orbe ancien est déplacé vers un endroit plus sensible dans la ruche, mais il n'y a pas d'autres changements."
 @282 = "Un spectateur est ajouté à la ruche."
 @283 = "Une Reine-mère et un spectateur sont ajoutés à la ruche."
-@284 = "Une Reine-mère, un spectateur et deux tyrans morts sont ajoutés à la ruche."
+@284 = "Une Reine-mère, un spectateur et deux tyramorts sont ajoutés à la ruche."
 @285 = "Une Reine-mère, trois spectateurs, deux tyrans morts et deux gauths sont ajoutés à la ruche."
 
 // Spellholditems
@@ -166,11 +166,11 @@
 
 // Ascension
 
-@321 = "Les capacités de Melissan sont fortement limitées, et elle n'apparaît que tard dans la bataille finale. Vous récupérez des sorts et des capacités trois fois avant la bataille finale. Les cinq évitent d'utiliser leurs capacités les plus puissantes."
-@322 = "Melissan et les cinq ont légèrement moins de restrictions de leurs capacités."
-@323 = "Melissan et les cinq reçoivent la plupart de leurs capacités, et Melissan peut invoquer des démons. Melissan apparaît à mi-chemin de la bataille avec les cinq. Vous récupérez deux fois des sorts et des capacités avant la bataille finale."
-@324 = "Melissan et les cinq utilisent toutes leurs capacités. Yaga-Shura commence avec une résistance de 100% à la plupart des formes de dégâts (qui diminuera au fil du temps). Melissan apparaît tôt dans la bataille avec les cinq, et invoque des démons plus rapidement. Sarevok envisagera de vous trahir s'il est un membre de votre groupe. Vous ne récupérez les sorts et les capacités qu'une seule fois avant la bataille finale."
-@325 = "Melissan apparaît dès qu'un des cinq est tué, convoque des démons encore plus rapidement et peut également invoquer des solaires déchus. Le chapitre 10 tout entier ne vous permet pas de vous reposer."
+@321 = "Les capacités de Mélissanne sont fortement limitées, et elle n'apparaît que tard dans la bataille finale. Vous récupérez des sorts et des capacités trois fois avant la bataille finale. Les cinq évitent d'utiliser leurs capacités les plus puissantes."
+@322 = "Mélissanne et les cinq ont légèrement moins de restrictions de leurs capacités."
+@323 = "Mélissanne et les cinq reçoivent la plupart de leurs capacités, et Mélissanne peut invoquer des démons. Mélissanne apparaît à mi-chemin de la bataille avec les cinq. Vous récupérez deux fois des sorts et des capacités avant la bataille finale."
+@324 = "Mélissanne et les cinq utilisent toutes leurs capacités. Yaga-Shura commence avec une résistance de 100 % à la plupart des formes de dégâts (qui diminuera au fil du temps). Mélissanne apparaît tôt dans la bataille avec les cinq, et invoque des démons plus rapidement. Sarevok envisagera de vous trahir s'il est un membre de votre groupe. Vous ne récupérez les sorts et les capacités qu'une seule fois avant la bataille finale."
+@325 = "Mélissanne apparaît dès qu'un des cinq est tué, convoque des démons encore plus rapidement et peut également invoquer des solaires déchus. Le chapitre 10 tout entier ne vous permet pas de vous reposer."
 
 // dragons (IWD)
 

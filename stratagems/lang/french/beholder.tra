@@ -1,6 +1,6 @@
 
 @100 = ~Télékinésie~
-@101 = ~Pédoncule de paralysation détruit~
+@101 = ~Pédoncule de paralysie détruit~
 @102 = ~Pédoncule de peur détruit~
 @103 = ~Pédoncule de domination détruit~
 @104 = ~Pédoncule de blessure détruit~
@@ -8,7 +8,7 @@
 @106 = ~Pédoncule de pétrification détruit~
 @107 = ~Pédoncule de rayon mortel détruit~
 @108 = ~Pédoncule de ralentissement détruit~
-@109 = ~Pédoncule de télékinesie détruit~
+@109 = ~Pédoncule de télékinésie détruit~
 @110 = ~Œil central endommagé~
 @111 = ~Pédoncule foudroyant détruit~
 @112 = ~Pédoncule ardent détruit~
