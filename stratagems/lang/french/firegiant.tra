@@ -5,7 +5,7 @@
 @2103 = ~Feu des étoiles~
 @3000 = ~Pluie de cendres
 
-Ce pouvoir fait tomber une pluie de cendres sur les ennemis, les brûlant et les distrayant. La pluie de cendres inflige 4d10 points de dégâts de feu, et inflige un malus de 4 points de TAC0 et de 2 points de dextérité durant 5 tours.~
+Ce pouvoir fait tomber une pluie de cendres sur les ennemis, les brûlant et les distrayant. La pluie de cendres inflige 4d10 points de dégâts de feu, ainsi qu'un malus de 4 points de TAC0 et de 2 points de dextérité pendant 5 tours.~
 
 @3001 = ~Fléau de feu
 
