@@ -109,8 +109,8 @@
 // Illithids
 
 @241 = "Les flagelleurs mentaux utilisent peu de pouvoirs, et les utilisent de manière peu intelligente."
-@242 = "Les flagelleurs mentaux utilisent Labyrinthe et des Coup spirituel. Leur intelligence générale pour choisir leurs cibles s'améliore."
-@243 = "L'intelligence surhumaine des flagelleurs mentaux leur permet d'ignorer les sorts d'Invisibilité. Ils utilisent le Trajet planaire pour se déplacer rapidement sur le champ de bataille, se cacher avec Détournement psionique, et sont trop alertes pour que le groupe puisse se reposer dans leur cité."
+@242 = "Les flagelleurs mentaux utilisent Labyrinthe et des Souffles psiniques. Leur intelligence générale pour choisir leurs cibles s'améliore."
+@243 = "L'intelligence surhumaine des flagelleurs mentaux leur permet d'ignorer les sorts d'Invisibilité. Ils utilisent le Voyage planaire pour se déplacer rapidement sur le champ de bataille, se cachent avec leur invisibilité psionique, et sont trop alertes pour que le groupe puisse se reposer dans leur cité."
 @244 = "L'étrange physiologie des flagelleurs mentaux et leurs protections psioniques leur confèrent une résistance de 50 % aux dégâts physiques. Les flagelleurs mentaux utilisent leurs pouvoirs psioniques pour détruire rapidement des adversaires non-vivants tels que les squelettes."
 
 // Spawns
