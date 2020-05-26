@@ -149,6 +149,7 @@ Non utilisable par :
  Voleur
  Moine
  Belluaire~
+@414 = ~Marteau de guerre de maître~
 
 @415 = ~Réputé être l'arme contondante la moins sophistiquée, le bâton est un bout de bois d'une longueur de 1,80 m à 2,80 m. Les bâtons de qualité supérieure sont fabriqués en chêne robuste et sont ferrés de métal aux deux extrémités. Le bâton doit être manié des deux mains. 
 
@@ -273,6 +274,7 @@ Non utilisable par :
  Voleur
  Moine
  Belluaire~
+@426 = ~Masse de maître~
 
 @427 = ~L'épée à deux mains mains est un dérivé de l'épée longue. Les armuriers ont toujours cherché à améliorer les armes de leur temps. Pour l'épée longue, ils ont allongé la lame. Après la lame, c'est la poignée qui s'est allongée. Il est alors devenu nécessaire d'utiliser les deux mains pour manier l'épée. La fonction première de l'épée à deux mains est de désarçonner les chevaliers montés et de désorganiser les haies de piques. Celle-ci est particulièrement efficace, et a été fabriquée dans le plus fin acier nain.
 
@@ -334,6 +336,7 @@ Non utilisable par :
  Moine
  Chevalier
  Kensai~
+@432 = ~Arc long composite de maître~
 
 @433 = ~Le fléau est composé d'une solide poignée en bois attachée à une tringle en fer, une baguette de bois comportant des pointes, ou une boule de fer pointue. La poignée et l'équipement qui l'accompagne sont reliés par une charnière ou une chaîne. Celle-ci a été fabriquée avec de l'acier et du bois d'if de qualité. Elle est légère, bien équilibrée et très efficace malgré son absence d'enchantement.
 
@@ -353,3 +356,4 @@ Non utilisable par :
  Voleur
  Moine
  Belluaire~
+@434 = ~Fléau de maître~
